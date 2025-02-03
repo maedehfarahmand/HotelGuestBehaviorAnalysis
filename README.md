@@ -1,21 +1,14 @@
-# Data Analysis and Visualization Project
+# Hotel Guest Behavior Analysis
 
-This repository contains an end-to-end data analysis project, including exploratory data analysis (EDA), machine learning models, and data visualization using Power BI.
+This repository contains a portfolio project analyzing hotel guest behavior. The project encompasses exploratory data analysis, predictive modeling, and customer segmentation to gain insights into guest patterns and preferences.  It includes both a Python Jupyter Notebook for data analysis and machine learning, and a Power BI dashboard for interactive visualization.
 
 ## Project Overview
 
-The project involves the following steps:
-
-1.  **Exploratory Data Analysis (EDA):**
-    *   Conducted an in-depth analysis of the dataset to uncover patterns and insights.
-    *   Visualizations and summary statistics are included in `EDA.ipynb`.
-
-2.  **Machine Learning Models:**
-    *   **Linear Regression:** Implemented to predict total sales based on independent features in `LinearRegression.ipynb`.
-    *   **Clustering:** Applied clustering techniques to segment customer purchase behavior based on features such as monetary value, recency, and frequency of purchases, detailed in `Clustering.ipynb`.
-
-3.  **Power BI Dashboard:**
-    *   Created a visualization dashboard to present key insights derived from the clustered dataset in `PowerBIAnalysis.pbix`.
+*   `HotelAnalysis.ipynb`: A Jupyter Notebook containing the complete data analysis process, including:
+    *   Exploratory Data Analysis (EDA): Visualizations and statistical analysis to understand data characteristics and identify trends.
+    *   Random Forest Classification: A machine learning model to predict booking cancellations.
+    *   K-Means Clustering: An unsupervised learning algorithm to segment customers based on their behavior.
+*   `PowerBIAnalysis.pbix`: A Power BI dashboard providing interactive visualizations of the data analysis results and insights derived from the models.
 
 ## Dataset
 
